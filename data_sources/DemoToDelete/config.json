@@ -1,0 +1,10 @@
+{
+    "name": "DemoToDelete",
+    "type": "mongodb-atlas",
+    "config": {
+        "clusterName": "DemoToDelete",
+        "readPreference": "primary",
+        "wireProtocolEnabled": false
+    },
+    "version": 1
+}

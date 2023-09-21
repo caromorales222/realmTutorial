@@ -1,0 +1,10 @@
+{
+    "name": "MapfreToDelete",
+    "type": "mongodb-atlas",
+    "config": {
+        "clusterName": "MapfreToDelete",
+        "readPreference": "primary",
+        "wireProtocolEnabled": false
+    },
+    "version": 1
+}

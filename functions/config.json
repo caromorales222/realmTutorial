@@ -1,0 +1,24 @@
+[
+    {
+        "name": "Atlas_Triggers_trigger0_1695302817",
+        "private": false
+    },
+    {
+        "name": "Atlas_Triggers_pauseAndDeleteCluster_1687251601",
+        "private": false
+    },
+    {
+        "name": "modifyCluster",
+        "private": false,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "Atlas_Triggers_pauseAllCluster_1681287060",
+        "private": false
+    },
+    {
+        "name": "Atlas_Triggers_DemoTrigger_1695303060",
+        "private": false,
+        "can_evaluate": {}
+    }
+]

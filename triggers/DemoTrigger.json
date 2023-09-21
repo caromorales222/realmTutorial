@@ -1,0 +1,28 @@
+{
+    "id": "650c459928183cdd86a741a8",
+    "name": "DemoTrigger",
+    "type": "DATABASE",
+    "config": {
+        "operation_types": [
+            "UPDATE"
+        ],
+        "database": "sample_airbnb",
+        "collection": "listingsAndReviews",
+        "service_name": "DemoToDelete",
+        "match": {},
+        "project": {},
+        "full_document": true,
+        "full_document_before_change": false,
+        "unordered": false,
+        "skip_catchup_events": false,
+        "tolerate_resume_errors": false
+    },
+    "disabled": false,
+    "event_processors": {
+        "FUNCTION": {
+            "config": {
+                "function_name": "Atlas_Triggers_DemoTrigger_1695303060"
+            }
+        }
+    }
+}
